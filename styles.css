@@ -1,0 +1,69 @@
+
+:root {
+  /* Colores */
+  --color-primario: #246bb7; /* Azul vibrante */
+  --color-secundario: #6c757d; /* Gris sutil */
+  --color-fondo: #cfd8e2; /* Blanco muy claro */
+  --color-texto: #000000; /* Gris oscuro para el texto */
+}
+
+body {
+  background-color: var(--color-fondo);
+  margin: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--color-texto);
+}
+
+.containet-title {
+  text-align: center;
+  border: solid 1px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+h1{
+  margin:0;
+  color: rgb(0, 68, 255);
+  font-size: 3rem;
+
+}
+
+.subtitle{
+  color:var(--muted);
+  font-size:1rem;
+  margin:0;
+}
+
+.filtro{
+  display:flex;
+  gap:.75rem;
+  align-items:center;
+  justify-content:center;
+  padding:1rem 0;
+}
+
+#search{
+  width:100%;
+  max-width:420px;
+  padding:.6rem .75rem;
+  border-radius:10px;
+  border:1px solid #e6e9ef;
+  background:white;
+}
+
+.status{
+  font-size:.9rem;
+  color:var(--muted);
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
